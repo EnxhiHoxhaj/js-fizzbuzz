@@ -8,6 +8,8 @@ for (let i = 1; i <= 100; i++ ) {
         console.log("FizzBuzz")
 
     //individua gli elementi divisibili per 3 e cambia il valore dei numeri trovati in "Fizz" 
+    } else if (i%3 == 0) {
+        console.log("Fizz")
 
     //individua gli elementi divisibili per 5 e cambia il valore dei numeri trovati in "Buzz"
 
