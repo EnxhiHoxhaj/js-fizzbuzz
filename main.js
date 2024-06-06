@@ -12,7 +12,8 @@ for (let i = 1; i <= 100; i++ ) {
         console.log("Fizz")
 
     //individua gli elementi divisibili per 5 e cambia il valore dei numeri trovati in "Buzz"
-
+    } else if (i%5 == 0) {
+        console.log("Buzz")
     } else {
         console.log(i);
     }
