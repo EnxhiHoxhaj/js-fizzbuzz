@@ -2,6 +2,8 @@
 
 // creare un ciclo che generi i numeri da 1 a 100
 
+const container = document.querySelector(".container")
+
 for (let i = 1; i <= 100; i++ ) {
     //individua gli elementi divisibili si per 3 che per 5 e cambia il valore dei numeri trovati in "FizzBuzz"
     if (i%3 == 0 && i%5 == 0) {
@@ -17,7 +19,10 @@ for (let i = 1; i <= 100; i++ ) {
     } else {
         console.log(i);
     }
-// creiamo delle box che racchiudano i numeri
+    // creiamo delle box che racchiudano i numeri
+    const box = `<div class="box">${i}</div>`
+    console.log(box)
+    container.innerHTML += box;
 }
 
 //carichiamo il risultato in pagina
